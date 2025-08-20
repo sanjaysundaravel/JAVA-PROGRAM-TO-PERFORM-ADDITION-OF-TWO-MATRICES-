@@ -62,8 +62,46 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 
 ## PROGRAM:
+```
+package Sridhar;
 
+public class sridhar {
+
+	    public static void main(String[] args) {
+	        int[][] matrix1 = {
+	            {1, 2, 3},
+	            {4, 5, 6},
+	            {7, 8, 9}
+	        };
+
+	        int[][] matrix2 = {
+	            {9, 8, 7},
+	            {6, 5, 4},
+	            {3, 2, 1}
+	        };
+
+	        int[][] result = new int[3][3]; // Resultant matrix
+
+	        // Adding two matrices
+	        for (int i = 0; i < 3; i++) {
+	            for (int j = 0; j < 3; j++) {
+	                result[i][j] = matrix1[i][j] + matrix2[i][j];
+	            }
+	        }
+
+	        // Printing the result
+	        System.out.println("Resultant Matrix:");
+	        for (int i = 0; i < 3; i++) {
+	            for (int j = 0; j < 3; j++) {
+	                System.out.print(result[i][j] + " ");
+	            }
+	            System.out.println(); // For new line after each row
+	        }
+	    }
+	}
+ ```
 ## OUTPUT:
+<img width="1914" height="965" alt="Screenshot 2025-08-20 214229" src="https://github.com/user-attachments/assets/295634c2-90fe-4fec-a5cd-bb00a6bc8796" />
 
 ## RESULT:
 
